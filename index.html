@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор виртуальной карты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Генератор виртуальной карты</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-header">
+                    <div class="bank-name">Банк</div>
+                    <div class="card-type">VIRTUAL CARD</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-number" id="card-number">**** **** **** ****</div>
+                    <div class="card-details">
+                        <div class="card-holder" id="card-holder">Имя Фамилия</div>
+                        <div class="expiry-date" id="expiry-date">ММ/ГГ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="generateCard()">Сгенерировать карту</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
